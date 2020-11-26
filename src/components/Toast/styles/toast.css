@@ -1,0 +1,26 @@
+.toast-wrapper {
+  z-index: 2;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  padding: 15px;
+  min-width: 350px;
+}
+
+.toast {
+  position: relative;
+  background-color: #bbf7d0;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 4px;
+}
+
+.toast-close-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
